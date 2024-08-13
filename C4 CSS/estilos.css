@@ -1,0 +1,98 @@
+body{
+    background-color: rgb(1, 1, 15);
+}
+
+section{
+    background-color: orange;
+}
+
+
+h1{
+    font-size: 50px;
+}
+
+.foto1{
+    margin: auto;
+}
+
+h2{
+    font-size: 40px;
+}
+
+h3{
+    font-size: 30px;
+}
+
+.dnk{
+    font-size: 20px;
+}
+
+#canabis{
+    font-size: 4em;
+    color: blue;
+    /* view port width el numero corresponde al % */
+    width: 65vw;
+    margin: auto;
+    padding: 1em;
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    width: 600px;
+}
+
+.foto1{
+    border: 2px solid black;
+    width: fit-content;
+    margin: auto;
+    padding: 1.5em 1em 1.5em 1em;
+    border-radius: 15%;
+    transition: 1s;
+    
+}
+
+.foto1:hover{
+    background-color: rgb(140, 87, 189);
+
+}
+
+#principalmente{
+    background-color: yellow;
+    width: 85vw;
+    margin: auto;
+    margin-top: 1.5em;
+    border: 2px solid rgb(26, 5, 5);
+    border-radius: 5%;
+    padding: 2em;
+}
+
+.anarkista{
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.card{
+    border: 2px solid black;
+    width: fit-content;
+    padding: 0px 1em 1em 1em;
+    border-radius: 10%;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    align-items: center;
+}
+
+.card:hover{
+    background-color: blueviolet;
+}
+
+.logo2{
+    width: 400px;
+    height: 400px;
+}
+
